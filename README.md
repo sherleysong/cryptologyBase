@@ -1,7 +1,8 @@
 # cryptologyBase
 
 密码学基础代码实现, JavaScript 为主， 小部分是 JAVA 版本
-本 readme 可用支持 LaTeX 的插件阅读，github 默认支持不友好。
+
+建议使用 LaTeX 插件阅读，更友好。
 
 ## 第一章 古典密码
 
