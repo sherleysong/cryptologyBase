@@ -46,7 +46,7 @@ Z26 上 K 的逆 $K^-1 = 21K^* =
 17 & 24 & 1 \\
 \end{bmatrix}$
 
-### [1.4 仿射密码分析](./ClassicalCryptography/DecodeAffineCipher.java)
+### [1.4 仿射密码分析](./ClassicalCryptography/DecodeAffineCipher.js)
 
 解方程组 $
 k1 * a + b = e1 、
@@ -57,12 +57,12 @@ $
 
 字符串 ax+b 的加密、解密
 
-### [1.5 维吉尼亚密码分析](./ClassicalCryptography/DecodeVigenereCipher.java)
+### [1.5 维吉尼亚密码分析](./ClassicalCryptography/DecodeVigenereCipher.js)
 
 Kasiski 测试法
 计算期望概率 Mg, 求出秘钥:
 
-### [1.6 希尔密码分析](./ClassicalCryptography/DecodeHillCipher.java)
+### [1.6 希尔密码分析](./ClassicalCryptography/DecodeHillCipher.js)
 
 矩阵算法使用`matrix-js`，借助求模 26 的逆。
 
