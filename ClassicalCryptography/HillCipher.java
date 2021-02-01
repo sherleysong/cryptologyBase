@@ -5,7 +5,7 @@
     的加密和相应密文串的解密.
 * */
 
-public class MMHillCipher {
+public class HillCipher {
     public static void main(String[] arg) {
         String s = "lookingforwardtoournationalday";
         String encodeS = encode(s);

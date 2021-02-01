@@ -5,7 +5,7 @@ we are discovered, save yourself
 friday
 *
 * */
-public class MMVirginian {
+public class VigenereCipher {
     public static void main(String[] arg) {
         String s = "we are discovered, save yourself";
         String key = "friday";

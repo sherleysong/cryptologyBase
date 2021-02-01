@@ -1,0 +1,11 @@
+{
+  "name": "cryotology_base",
+  "version": "1.0.0",
+  "description": "",
+  "author": "sherleysong",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "matrix-js": "^1.5.1"
+  }
+}

@@ -3,7 +3,7 @@
 ESPESTCOPIPCNTDPYPPODACZRCLXXTYR
 *
 * */
-public class MMShift26 {
+public class ShiftCipher {
     public static void main(String[] arg) {
         String s = "ESPESTCOPIPCNTDPYPPODACZRCLXXTYR";
         for (int i = 0; i < 26; i++) {
