@@ -71,3 +71,32 @@ Kasiski 测试法
 已知密文 RUPOTENTOIFV
 试确定加密秘钥矩阵（维数未知）
 `result`: [ [ 3, 21, 20 ], [ 4, 15, 23 ], [ 6, 14, 5 ] ]
+
+## 第三章 分组密码
+
+### [3.1 AES 秘钥编排方案](./BlockCiphers/AESKeyExpansion.js)
+
+    假设有128比特的AES密钥,用十六进制表示为
+    2B7E151628AED2A6ABF7158809CF4F3C
+    由上述种子密钥构造一个完整的密钥编排方案。
+
+[sherleysong CSDN 密钥编排方案](https://blog.csdn.net/sherleysong/article/details/113542128)
+
+## 第五章 RSA
+
+### [5.1 Multiplicative Inverse 乘法逆](./RSA/MultiplicativeInverse.js)
+
+$s*a+t*b=1$
+$(75,28)$
+$3*75+(-8)*28=1$
+$t=-8$
+
+### [5.2 中国剩余定理](./RSA/CRT.js)
+
+有物不知其数，三三数之剩二，五五数之剩三，七七数之剩二。问物几何？
+
+[sherleysong CSDN 中国剩余定理 Chinese remainder theorem(CRT)](https://blog.csdn.net/sherleysong/article/details/112095723)
+
+### [5.3 平方-乘算法](./RSA/SquareMultiply.js)
+
+著名的平方-乘算法可以把计算 x^c mod n 所需模乘的次数降低为最多 2l 次,其中 l 是 c 的二进制表示的比特数。
